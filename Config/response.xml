@@ -1,0 +1,33 @@
+<!-- This is an XML response from the call center API. It lists users and their status. This is just an exmaple. I have removed all private information and replaced it with examples.-->
+<Users>
+  <User>
+    <dialogs>/finesse/api/User/AGENT/Dialogs</dialogs>
+    <extension></extension>
+    <firstName>FIRST</firstName>
+    <lastName>LAST</lastName>
+    <loginId>AGENT</loginId>
+    <loginName>AGENT</loginName>
+    <mediaType>1</mediaType>
+    <pendingState></pendingState>
+    <reasonCodeId>-1</reasonCodeId>
+    <roles>
+      <role>Agent</role>
+      <role>Supervisor</role>
+    </roles>
+    <settings>
+      <wrapUpOnIncoming></wrapUpOnIncoming>
+    </settings>
+    <state>LOGOUT</state>
+    <stateChangeTime></stateChangeTime>
+    <teamId>1</teamId>
+    <teamName>Default</teamName>
+    <teams>
+      <Team>
+        <id>2</id>
+        <name>TEAM NAME</name>
+        <uri>/finesse/api/TEAMNAME</uri>
+      </Team>
+    </teams>
+    <uri>/finesse/api/User/AGENT</uri>
+  </User>
+  
